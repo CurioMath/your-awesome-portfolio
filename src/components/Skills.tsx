@@ -5,31 +5,31 @@ import { useRef } from "react";
 const skillCategories = [
   {
     title: "Programming Languages",
-    skills: ["Python", "Julia", "R", "C++"]
+    skills: ["Python", "Julia", "R", "C++", "SQL"]
   },
   {
-    title: "BI & ML Tools",
-    skills: ["Power BI", "Tableau", "scikit-learn", "TensorFlow", "PyTorch", "XGBoost"]
+    title: "Machine Learning & AI",
+    skills: ["TensorFlow", "PyTorch", "scikit-learn", "XGBoost", "Neural Networks", "Deep Learning", "Transformers"]
   },
   {
-    title: "Data Skills",
-    skills: ["Data Analysis", "Data Visualization", "Data Mining", "Dashboard Design", "Data Storytelling"]
+    title: "Data Visualization & BI",
+    skills: ["Power BI", "Tableau", "Dashboard Design", "Data Storytelling", "Matplotlib", "Seaborn"]
   },
   {
-    title: "Statistical Skills",
-    skills: ["Statistical Analysis", "Bayesian Inference", "Predictive Analysis", "Forecasting", "Optimization"]
+    title: "Statistical & Mathematical",
+    skills: ["Statistical Analysis", "Bayesian Inference", "Predictive Modeling", "Forecasting", "Optimization", "Simulation"]
   },
   {
-    title: "Core Competencies",
-    skills: ["Machine Learning", "Neural Networks", "Regression", "Clustering", "Decision Trees"]
+    title: "Data Engineering",
+    skills: ["Data Mining", "ETL Pipelines", "Data Cleaning", "Data Extraction", "Advanced Excel", "VBA"]
   },
   {
-    title: "Development Tools",
-    skills: ["SQL", "Git", "GitHub", "Jira", "Advanced Excel", "VBA"]
+    title: "Tools & Collaboration",
+    skills: ["Git", "GitHub", "Jira", "Monday", "Agile", "Technical Documentation"]
   }
 ];
 
-const Skills = () => {
+const About = () => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
@@ -83,4 +83,4 @@ const Skills = () => {
   );
 };
 
-export default Skills;
+export default About;
