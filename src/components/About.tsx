@@ -53,12 +53,11 @@ const About = () => {
             About <span className="text-gradient">Me</span>
           </h2>
           <p className="text-muted-foreground text-lg max-w-3xl mx-auto leading-relaxed">
-            Data Analyst and Applied Research Scientist with over 3 years of experience 
-            specializing in data analytics, statistical modelling, and computational analysis 
-            within industrial and energy systems. I leverage cutting-edge machine learning, 
-            Physics-Informed Neural Networks, and advanced visualization tools to transform 
-            complex data into actionable insights that drive operational efficiency and 
-            data-informed decision-making.
+            Mathematician and Data Scientist with over 3 years of experience bridging 
+            theoretical mathematics with practical applications in industrial and energy systems. 
+            My strong foundation in differential calculus, linear algebra, and optimization 
+            empowers me to develop rigorous analytical solutions, teach complex mathematical 
+            concepts, and drive data-informed decision-making in research and industry.
           </p>
         </motion.div>
 

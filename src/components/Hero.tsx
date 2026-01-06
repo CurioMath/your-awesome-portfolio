@@ -56,7 +56,7 @@ const Hero = () => {
             transition={{ delay: 0.5, duration: 0.8 }}
             className="text-xl md:text-2xl text-muted-foreground mb-4 font-light"
           >
-            Applied Research Scientist & Data Analyst
+            Applied Research Scientist | Data Analyst | Mathematician
           </motion.p>
 
           <motion.p
@@ -65,8 +65,8 @@ const Hero = () => {
             transition={{ delay: 0.6, duration: 0.8 }}
             className="text-base md:text-lg text-muted-foreground/80 max-w-2xl mx-auto mb-10 leading-relaxed"
           >
-            Specializing in Energy IoT, Machine Learning & Scientific Computing — transforming 
-            complex industrial data into actionable insights through advanced analytics.
+            Blending deep mathematical foundations with cutting-edge Machine Learning & 
+            Data Science to solve complex industrial problems and educate the next generation.
           </motion.p>
 
           <motion.div
