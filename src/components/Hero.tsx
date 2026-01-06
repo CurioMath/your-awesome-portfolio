@@ -65,8 +65,8 @@ const Hero = () => {
             transition={{ delay: 0.6, duration: 0.8 }}
             className="text-base md:text-lg text-muted-foreground/80 max-w-2xl mx-auto mb-10 leading-relaxed"
           >
-            3+ years transforming complex data into actionable insights through 
-            statistical modelling, machine learning, and beautiful visualizations.
+            Specializing in Energy IoT, Machine Learning & Scientific Computing — transforming 
+            complex industrial data into actionable insights through advanced analytics.
           </motion.p>
 
           <motion.div

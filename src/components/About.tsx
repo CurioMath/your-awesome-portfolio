@@ -1,28 +1,38 @@
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
-import { Brain, BarChart3, Database, Code } from "lucide-react";
+import { Brain, BarChart3, Database, Code, Zap, LineChart } from "lucide-react";
 
 const highlights = [
   {
     icon: Brain,
     title: "Machine Learning",
-    description: "Neural Networks, PyTorch, TensorFlow, scikit-learn"
+    description: "Neural Networks, PyTorch, TensorFlow, Deep Learning"
   },
   {
     icon: BarChart3,
     title: "Data Visualization",
-    description: "Power BI, Tableau, Dashboard Design"
+    description: "Power BI, Tableau, Dashboard Design & Storytelling"
   },
   {
     icon: Database,
     title: "Data Analytics",
-    description: "SQL, Python, Statistical Analysis"
+    description: "SQL, Python, Statistical & Bayesian Analysis"
   },
   {
     icon: Code,
     title: "Programming",
     description: "Python, Julia, R, C++"
+  },
+  {
+    icon: Zap,
+    title: "Energy & IoT",
+    description: "Grid Forecasting, Predictive Maintenance, Industrial Systems"
+  },
+  {
+    icon: LineChart,
+    title: "Scientific Computing",
+    description: "Mathematical Modeling, Simulation & Optimization"
   }
 ];
 
@@ -43,14 +53,16 @@ const About = () => {
             About <span className="text-gradient">Me</span>
           </h2>
           <p className="text-muted-foreground text-lg max-w-3xl mx-auto leading-relaxed">
-            Data Analyst with over 3 years of experience in data analytics, statistical modelling, 
-            and computational analysis within industrial and energy systems. Expert in leveraging 
-            Python, SQL, and Advanced Excel for data extraction, cleaning, and visualization. 
-            Committed to continuous improvement in analytics and driving data-informed decision-making.
+            Data Analyst and Applied Research Scientist with over 3 years of experience 
+            specializing in data analytics, statistical modelling, and computational analysis 
+            within industrial and energy systems. I leverage cutting-edge machine learning, 
+            Physics-Informed Neural Networks, and advanced visualization tools to transform 
+            complex data into actionable insights that drive operational efficiency and 
+            data-informed decision-making.
           </p>
         </motion.div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {highlights.map((item, index) => (
             <motion.div
               key={item.title}
